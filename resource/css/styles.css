@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0 60px;
+  border-bottom: 1px solid grey;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.navegation ul {
+  display: flex;
+}
+
+.navegation li {
+  list-style-type: none;
+  padding: 0 25px;
+}
+
+.navegation a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(4, 145, 145);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#cta {
+  position: relative;
+  top: 60px;
+}
+
+.position1 {
+  position: absolute;
+  left: 60px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #6ce5f2;
+}
+
+.position2 {
+  position: absolute;
+  right: 60px;
+  z-index: 1;
+}
+
+.position2 img {
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+}
+
+.position3 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: 60px;
+  bottom: -1000px;
+  border-radius: 50%;
+  background-color: #20baca;
+  z-index: 2;
+}
+
+.cta-description {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-description h1 {
+  padding: 20px;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cta-description p {
+  font-size: 1.5rem;
+  padding: 10px 80px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  color: white;
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #20baca;
+  border-radius: 12px;
+}
+
+.join-us a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.position4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: -950px;
+  right: 60px;
+  border: 25px solid #20baca;
+  border-radius: 50%;
+  background-color: white;
+}
